@@ -1,0 +1,95 @@
+body {
+    background-color: #151515de;
+}
+
+li {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+#progressContainer {
+    display: flex;
+    width: 500px;
+    height: 10px;
+    margin-top: 10px;
+    background-color: #171F27;
+}
+
+.progressBar {
+    height: 10px;
+    width: calc(100% / 10);
+    background-color: #FF610F;
+}
+
+.stars {
+    display: flex;
+}
+
+.stars a {
+    opacity: 20%;
+    font-size: 100px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.stars a:hover {
+    opacity: 100%;
+}
+
+.stars:hover a {
+    opacity: 100%;
+}
+
+.stars a:hover ~ a  {
+    opacity: 20%;
+}
+
+.stars a.active {
+    opacity: 100%;
+}
+
+.tagButton {
+    background-color: #171F27;
+    color: white;
+    cursor: pointer;
+}
+
+.tagButton:hover {
+    background-color: #FF610F;
+    color: #171F27;
+}
+
+#tags {
+    margin-top: 10px;
+}
+
+.tagActive {
+    background-color: aqua;
+}
+
+#ratingModal {
+    display: none;
+}
+
+.missingReviewClass {
+    background-color: #FF610F;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
