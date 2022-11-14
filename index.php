@@ -11,8 +11,6 @@
     // fetch the result rows as an array
     $pizzas = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
-    // free result from memory
-    // mysqli_free_result($result);
 
     if(isset($_POST['btn-atc'])) {
         $kitchen = $_POST["name"]; 
@@ -36,11 +34,6 @@
     $missingReviewsResult = mysqli_query($conn, $missingReviewsDB);
 
     $missingReviews = mysqli_fetch_all($missingReviewsResult, MYSQLI_ASSOC);
-
-    // mysqli_free_result($missingReviewsResult);
-    // echo "<pre>";
-    // print_r($missingReviewsResult);
-    // echo "</pre>";
 ?>
 
 <!DOCTYPE html>

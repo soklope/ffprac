@@ -51,14 +51,6 @@ tags.forEach((tag) => {
     })
 });
 
-// submit.addEventListener("click", () => {
-//     if(commentInputValue.value = ""){
-
-//     } else {
-//         alert("great succes");
-//     }
-// })
-
 function validateMyForm() {
   if(commentInputValue.value = "") { 
     alert("validation failed false");
